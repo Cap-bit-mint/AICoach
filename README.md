@@ -25,7 +25,7 @@ openclaw skills install git:https://github.com/Cap-bit-mint/AICoach.git --path A
 
 # 方法三：手动安装
 git clone https://github.com/Cap-bit-mint/AICoach.git
-# 将 AICoach/AICoach/SKILL.md 复制到你的 skills 目录
+# 将根目录的 SKILL.md 内容复制到你的 skills 目录
 openclaw skills reload
 ```
 
