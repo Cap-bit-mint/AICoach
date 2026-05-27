@@ -12,16 +12,64 @@
 
 ---
 
+## 🚀 快速安装
+
+### OpenClaw（强烈推荐）
+
+```bash
+# 方法一：Git 一键安装（推荐）
+openclaw skills install git:https://github.com/Cap-bit-mint/AICoach.git
+
+# 方法二：指定路径安装
+openclaw skills install git:https://github.com/Cap-bit-mint/AICoach.git --path AICoach
+
+# 方法三：手动安装
+git clone https://github.com/Cap-bit-mint/AICoach.git
+# 将 AICoach/AICoach/SKILL.md 复制到你的 skills 目录
+openclaw skills reload
+```
+
+### Claude Code / Claude.ai
+
+```bash
+# Claude Code 命令
+/claude code skills install https://github.com/Cap-bit-mint/AICoach
+
+# 手动方式：
+# 1. 打开 SKILL.md 文件
+# 2. 复制全部内容
+# 3. 在 Claude 设置 → Skills → 新建 Skill 并粘贴
+```
+
+### 其他平台（Codex、Open Interpreter 等）
+
+```bash
+git clone https://github.com/Cap-bit-mint/AICoach.git
+
+复制 AICoach/AICoach/SKILL.md 的全部内容到对应平台的 Skill 或 Custom Instruction 中，然后重新加载工具。
+```
+
+---
+
+## 使用示例
+
+- 「我想学习大模型」
+- 「教我提示词工程」
+- 「用 AICoach 帮我学 Transformer 架构」
+- 「基于这个资料教我 RAG」
+
+AI 会自动触发**个性化诊断流程**并生成知识树。
+
+---
+
 ## 核心功能
 
-| 功能 | 描述 |
-|------|------|
-| 🗺️ **知识树可视化** | 生成动态学习地图，追踪 To Do / Doing / Done 进度 |
-| 🎓 **费曼学习法** | 用简单话解释复杂概念，确保真正"学会" |
-| 📁 **自动资料管理** | 创建主题文件夹，保存笔记、练习记录 |
-| 🎯 **个性化路径** | 根据水平、目标、偏好定制学习计划 |
-| 💪 **项目实践** | 设计小项目、练习题、应用场景 |
-| 🎉 **温柔鼓励** | 像一位耐心又风趣的大学导师 |
+- **4维度诊断**：当前水平、学习目标、偏好风格、时间投入
+- **动态知识树**：自动生成并追踪学习进度（To Do / Doing / Done）
+- **费曼学习法**：大白话生活比喻 + 主动输出练习
+- **智能资料管理**：自动创建学习文件夹与 Markdown 文件（支持文件操作环境）
+- **支持用户素材**：可基于笔记、PDF、链接进行针对性教学
+- **温柔陪伴式教学**：专业幽默 + 持续鼓励
 
 ---
 
@@ -33,71 +81,11 @@
 
 ---
 
-## 一键安装
-
-### Claude Code
-
-```bash
-/claude code skills install https://github.com/Cap-bit-mint/AICoach
-```
-
-### OpenClaw / 其他平台
-
-搜索 **"AICoach"** 或直接导入 `SKILL.md` 文件。
-
----
-
-## 使用示例
-
-```
-用户: 我想学习 LLM
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-AICoach: 好的！我们一起来把 LLM 变成你的拿手技能 😊
-         
-         为了给你量身定制学习路径，可以告诉我：
-         
-         1️⃣ 你目前对 LLM 的了解程度？
-         2️⃣ 你希望达到什么目标？
-         3️⃣ 你喜欢哪种学习方式？
-         4️⃣ 你大概能投入多少时间？
-         
-         我先为你生成一份 LLM 知识树...
-```
-
-```
-用户: 教我费曼学习法
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-AICoach: 费曼学习法是诺贝尔物理学奖得主理查德·费曼发明的学习方法～
-         
-         核心只有四个字：**以教促学**
-         
-         想象你要向一个10岁小孩解释这个概念...
-```
-
----
-
 ## 工作流程
 
 ```
 诊断起点 → 制定计划 → 概念讲解 → 项目练习 → 检查掌握 → 迭代鼓励
 ```
-
----
-
-## 本地手动安装
-
-```bash
-# 克隆仓库
-git clone https://github.com/Cap-bit-mint/AICoach.git
-
-# 进入目录
-cd AICoach
-
-# 查看 SKILL.md 内容
-cat SKILL.md
-```
-
-然后将 `SKILL.md` 的内容复制到你的 AI 助手自定义指令中。
 
 ---
 
