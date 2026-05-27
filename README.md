@@ -131,7 +131,7 @@ AICoach/
 
 参见 [CHANGELOG.md](docs/CHANGELOG.md)
 
-当前版本：**v1.0.0**
+当前版本：**v1.7**
 
 ---
 
