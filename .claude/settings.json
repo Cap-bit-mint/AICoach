@@ -1,0 +1,9 @@
+{
+  "skills": {
+    "AICoach": {
+      "path": ".",
+      "autoActivate": true,
+      "keywords": ["学习", "学会", "掌握", "教我", "coach", "tutor", "私教", "费曼", "学习路径", "学习计划"]
+    }
+  }
+}
