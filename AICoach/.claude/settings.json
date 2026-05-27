@@ -1,9 +1,0 @@
-{
-  "skills": {
-    "AICoach": {
-      "path": ".",
-      "autoActivate": true,
-      "triggers": ["学习", "学会", "掌握", "教我", "coach", "tutor", "私教", "费曼"]
-    }
-  }
-}
